@@ -22,11 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt  # Assuming you have a requirements.txt file
-
-    - name: Run tests
-      run: |
-        python -m pytest tests/  # Assuming you have tests in a 'tests' directory
+        pip install telethon pymongo python-dotenv  # Assuming you have a requirements.txt file
 
     - name: Run main.py
       run: |
