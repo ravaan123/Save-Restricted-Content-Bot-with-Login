@@ -1,3 +1,5 @@
+# Team SPY | DEVGAGAN
+
 import logging,os,time,json,telethon,asyncio,re
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
@@ -10,10 +12,10 @@ from dotenv import load_dotenv
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 load_dotenv(override=True)
 
-API_ID = int(os.getenv("TG_API_ID", "26075120"))
-API_HASH = os.getenv("TG_API_HASH", "1fda88a5d1de46058a4791c78bce198e")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7025853880:AAGwd5AUrTc9EBXeuOmOofbu_50LKFHgUe8")
-MONGODB_URL = os.getenv("MONGODB_URL", "mongodb+srv://spymusicbot:spymusicbot@cluster0.l4pi5sr.mongodb.net/?retryWrites=true&w=majority")
+API_ID = int(os.getenv("TG_API_ID", "5120"))
+API_HASH = os.getenv("TG_API_HASH", "1fda88a5d1de478bce198e")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "token")
+MONGODB_URL = os.getenv("MONGODB_URL", "mongouri")
 BOT_USERNAME = None
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 mongo_client = MongoClient(MONGODB_URL, server_api=ServerApi('1'))
