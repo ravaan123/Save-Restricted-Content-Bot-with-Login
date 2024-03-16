@@ -1,4 +1,4 @@
-# Save Restricted Bot with Login Features
+# Save Restricted Content Bot with Login Features
 
 This bot is designed to save and restrict access to certain content, with login features for added integrity.
 
