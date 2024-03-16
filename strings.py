@@ -1,3 +1,6 @@
+# telegram: @dev_gagan
+# GitHub : @devagagnin
+
 strings = {
     'sending1': "Sending code",
     'sending2': "Sending OTP request 📲",
@@ -13,7 +16,7 @@ strings = {
     'pass_invalid': "The 2 factor password you entered is invalid ❌",
     'howto_add_session': "You can add the string session (telethon) using below syntax\n/add_session <your_string_session>",
     'login_success': "The login was successful ✅",
-    'hello': "Hello 👋, I can download restricted content by logging into your account",
+    'hello': "Hello 👋, I can download restricted content by logging into your account made with ❤️ by GAGAN",
     'str_session_ok': "The string session is valid and successfully added ✅",
     'checking_str_session': "Validating the String Session ⏳",
     'logged_out': "Logged out successfully ☑️",
