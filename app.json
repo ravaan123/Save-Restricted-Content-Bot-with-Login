@@ -1,0 +1,23 @@
+{
+  "name": "save-restricted-bot-with-login",
+  "description": "Save Restricted Bot with Login Features",
+  "repository": "https://github.com/devgaganin/Save-Restricted-Bot-with-Login/",
+  "keywords": ["telegram", "bot", "python"],
+  "addons": [],
+  "scripts": {
+    "postdeploy": "python main.py"
+  },
+  "env": {
+    "I_LOVE_GAGAN": {
+      "description": "YOU LOVE GAGAN (don't change this)",
+      "value": "YES",
+      "readonly": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
